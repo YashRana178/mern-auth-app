@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+
 export default function Dashboard() {
   const [user, setUser] = useState(null);
 
@@ -22,6 +23,7 @@ export default function Dashboard() {
       <h1>Welcome {user.name}!</h1>
       <h2>Email: {user.email}</h2>
       <h2>Age: {user.age}</h2>
+      <button onClick={() => (window.location.href = "/home")}>Home Page</button>
     </div>
   );
 }
