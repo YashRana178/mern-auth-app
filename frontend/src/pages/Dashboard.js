@@ -19,7 +19,7 @@ export default function Dashboard() {
   if (!user) return <h2>Loading...</h2>;
 
   return (
-    <div>
+    <div className="dashboard">
       <h1>Welcome {user.name}!</h1>
       <h2>Email: {user.email}</h2>
       <h2>Age: {user.age}</h2>

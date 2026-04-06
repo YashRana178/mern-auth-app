@@ -1,0 +1,69 @@
+.settings-container{
+  width:80%;
+  margin:auto;
+}
+
+.setting-row{
+  display:flex;
+  justify-content:center;   
+  align-items:center;
+  gap:40px;                
+  margin:20px 0;
+  padding:15px;
+  background:rgb(255, 255, 255);
+  border-radius:8px;
+  box-shadow:0 5px 15px rgba(55, 55, 55, 0.1);
+}
+
+.setting-row input[type="text"]{
+  padding:8px;
+  width:150px;
+}
+
+.setting-row button{
+  padding:8px 15px;
+  background:rgb(91, 83, 83);
+  color:white;
+  border:none;
+  border-radius:5px;
+}
+
+.add-btn{
+  margin-top:20px;
+  padding:10px 20px;
+  background:green;
+  color:white;
+  border:none;
+}
+
+.section-buttons{
+  display:flex;
+  justify-content:center;
+  gap: 20px;
+  margin-top:25px;
+}
+
+.add-btn{
+  padding:10px 20px;
+  margin: 20px;
+  background:green;
+  color:white;
+  border:none;
+  border-radius:6px;
+}
+
+.remove-btn{
+  padding:10px 20px;
+  margin: 20px;
+  background:red;
+  color:white;
+  border:none;
+  border-radius:6px;
+}
+.home-btn{
+  font-size:x-small;
+  margin: 20px ;   /* centers horizontally */
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+}

@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./Auth.css";
+import "./home.css";  
 
 export default function Login() {
   const [form, setForm] = useState({});
@@ -11,7 +12,7 @@ export default function Login() {
     e.preventDefault();
     const res = await axios.post("http://localhost:5000/api/login", form);
     localStorage.setItem("token", res.data.token);
-    navigate("/dashboard");
+    navigate("/home");
   };
 
   return (
